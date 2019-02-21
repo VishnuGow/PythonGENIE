@@ -6,3 +6,4 @@ for img in pdfImage.sequence:
     page = wi(image=img)
     page.save(filename=str(i)+".png")
     i +=1
+print("...")
